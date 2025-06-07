@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Backend",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/backend/app.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Run Frontend",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/frontend/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
